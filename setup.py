@@ -12,5 +12,5 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=['aws_secretsmanager_client'],
-    install_requires=['boto3', 'base64', 'botocore'],
+    install_requires=['boto3', 'botocore'],
 )
